@@ -1,5 +1,5 @@
 /* Import Font */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
 
 /* Reset CSS  */
 * {
@@ -19,6 +19,17 @@ header {
   display: flex;
   align-items: center;
 }
+a {
+  text-decoration: none;
+}
+
+.background-primary {
+  background-color: #0077C5;
+}
+
+.color-primary {
+  color: #0077C5;
+}
 
 header section {
   padding: 10px
@@ -27,10 +38,7 @@ header section {
 .header-text {
   font-size: 10px;
 }
-.header-text a {
-  text-decoration: none;
-  color: #0077C5;
-}
+
 .header-button {
   margin-left: -10px;
 }
@@ -46,4 +54,133 @@ header section {
 
 .header-button button:hover {
   cursor: pointer;
+}
+.intuit-logo {
+  width: 130px;
+  filter: grayscale(1);
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+
+.mint-logo img,
+.quickbooks-logo img,
+.turbotax-logo img
+ {
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 3px;
+
+}
+
+.mint-logo span,
+.quickbooks-logo span,
+.turbotax-logo span {
+  position: relative;
+  top: -6px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 300;
+}
+
+main {
+  margin: auto;
+  max-width: 400px;
+  min-height: 600px;
+  position: relative;
+  top: 100px;
+}
+.logo {
+  font-size: 16px;
+}
+
+.form-heading {
+  background-color: #FFF;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #4C4C4C;
+}
+.form-heading p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 300;
+
+}
+
+.form-heading p a {
+  font-size: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+form {
+   margin: 30px;
+}
+
+input {
+  width: 100%;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-top: 5px;
+}
+
+.form-field {
+  margin-bottom: 30px;
+}
+
+.form-field label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  height: 40px;
+}
+
+.form-field input:focus {
+  outline-style: ridge;
+}
+.create-account-button {
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: #FFF;
+}
+
+.sign-up-privacy-policy p,
+.terms-and-conditions p,
+.sign-up-privacy-policy p a,
+.terms-and-conditions p a{
+  font-style: italic;
+  font-size: 11px;
+}
+
+.sign-up-privacy-policy,
+.terms-and-conditions p 
+{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 20px;
+  text-align: center;
+  color: gray;
+}
+.sign-up-privacy-policy {
+  padding-bottom: 30px;
+}
+
+.terms-and-conditions {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #EBEEF1;
 }
