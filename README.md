@@ -6,7 +6,7 @@
 
 ![screenshot][screenshot_url]
 
-[screenshot_url]: https://github.com/jrai0792/display-input-data/blob/main/127.0.0.1_60302_(CC's%20Laptop).png?raw=true
+[screenshot_url]: https://github.com/jrai0792/display-input-data/blob/mint-signup-page/127.0.0.1_60302_(CC's%20Laptop).png?raw=true
 
 - Additional description about the project and its features.
 
