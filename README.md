@@ -8,13 +8,28 @@
 
 [screenshot_url]: https://github.com/jrai0792/display-input-data/blob/main/127.0.0.1_60302_(CC's%20Laptop).png?raw=true
 
-Additional description about the project and its features.
+- Additional description about the project and its features.
+
+- Add Linters to the project.
+
+- Add index.html, style.css, header and header styles
+
+- Add the main section and its style.
+
+- Update the index.html and style.css for the linter errors.
+
+- Add footer section, elements, and styles
+
+- Update the README file.
 
 ## Built With
 
 - HTML,
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/jrai0792/display-input-data/mint-signup-page/index.html)
 
 ## Authors
 
@@ -35,12 +50,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

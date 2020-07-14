@@ -157,12 +157,17 @@ input {
 }
 
 .sign-up-privacy-policy p,
+.sign-up-privacy-policy p a {
+  font-style: italic;
+}
+
+.sign-up-privacy-policy p,
 .terms-and-conditions p,
 .sign-up-privacy-policy p a,
 .terms-and-conditions p a {
-  font-style: italic;
   font-size: 11px;
 }
+
 
 .sign-up-privacy-policy,
 .terms-and-conditions p {
