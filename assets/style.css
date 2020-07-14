@@ -113,10 +113,6 @@ h3 {
   font-weight: 300;
 }
 
-.form-heading p a {
-  font-size: 12px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -183,7 +179,30 @@ input {
 }
 
 .terms-and-conditions {
-  padding-top: 3px;
-  padding-bottom: 3px;
   background-color: #ebeef1;
+  min-height: 50px;
+}
+
+.terms-and-conditions p {
+  position: relative;
+  top: 15px;
+}
+
+footer {
+  position: relative;
+  top: 120px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.footer nav a {
+  padding: 0 8px;
+  color: gray;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
 }
