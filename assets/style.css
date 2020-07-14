@@ -1,0 +1,212 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+
+/* Reset CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 20px;
+  background-color: #ebeef1;
+}
+
+header {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background-primary {
+  background-color: #0077c5;
+}
+
+.color-primary {
+  color: #0077c5;
+}
+
+header section {
+  padding: 10px;
+}
+
+.header-text {
+  font-size: 10px;
+}
+
+.header-button {
+  margin-left: -10px;
+}
+
+.header-button button {
+  background-color: #0077c5;
+  color: #fff;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
+.header-button button:hover {
+  cursor: pointer;
+}
+
+.intuit-logo {
+  width: 130px;
+  filter: grayscale(1);
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+
+.mint-logo img,
+.quickbooks-logo img,
+.turbotax-logo img {
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.mint-logo span,
+.quickbooks-logo span,
+.turbotax-logo span {
+  position: relative;
+  top: -6px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 300;
+}
+
+main {
+  margin: auto;
+  max-width: 400px;
+  min-height: 600px;
+  position: relative;
+  top: 100px;
+}
+
+.logo {
+  font-size: 16px;
+}
+
+.form-heading {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #4c4c4c;
+}
+
+.form-heading p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  margin: 30px;
+}
+
+input {
+  width: 100%;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+}
+
+.form-field {
+  margin-bottom: 30px;
+}
+
+.form-field label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  height: 40px;
+}
+
+.form-field input:focus {
+  outline-style: ridge;
+}
+
+.create-account-button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.sign-up-privacy-policy p,
+.sign-up-privacy-policy p a {
+  font-style: italic;
+}
+
+.sign-up-privacy-policy p,
+.terms-and-conditions p,
+.sign-up-privacy-policy p a,
+.terms-and-conditions p a {
+  font-size: 11px;
+}
+
+.sign-up-privacy-policy,
+.terms-and-conditions p {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 20px;
+  text-align: center;
+  color: gray;
+}
+
+.sign-up-privacy-policy {
+  padding-bottom: 30px;
+}
+
+.terms-and-conditions {
+  background-color: #ebeef1;
+  min-height: 50px;
+}
+
+.terms-and-conditions p {
+  position: relative;
+  top: 15px;
+}
+
+footer {
+  position: relative;
+  top: 120px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.footer nav a {
+  padding: 0 8px;
+  color: gray;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
+}
